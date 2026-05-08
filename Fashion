@@ -1,0 +1,55 @@
+"Email": ":
+"Password":
+  ],
+  "supportIDs": [
+    "100037743553265",
+    "SUPPORT_ID_2"
+  ],
+  "",
+  "prefix": "/",
+  "fcaOptions": {
+    "forceLogin": false,
+    "updatePresence": true,
+    "listenEvents": true,
+    "logLevel": "silent",
+    "selfListen": false,
+    "autoMarkRead": false,
+    "autoMarkDelivery": false,
+    "online": true,
+    "emitReady": false,
+    "autoReconnect": true,
+    "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 CrKey/1.54.250320"
+  },
+  ,
+  "commandEnabled": true,
+  "eventEnabled": true,
+  "announceImageChange": true,
+  "announceNameChange": true,
+  "announceNicknameChange": true,
+  "debug": false,
+  "logsEnabled": true,
+  "disabledCommands": [
+    "imagine3"
+  ],
+  "server": {
+    "enabled": true,
+    "port": 4000,
+    "autoUptimeMonitoring": true
+  },
+  "serverUrl": "http://localhost:4000",
+  "spamBan": {
+    "enabled": true,
+    "maxCommands": 10,
+    "timeWindowMinutes": 1,
+    "banDurationHours": 24
+  },
+  "autosend": {
+    "enabled": false,
+    "checkIntervalMinutes": 1
+  },
+  "sessionManagement": {
+    "enabled": true,
+    "refreshIntervalMinutes": 10,
+    "dtsgRefreshHours": 2,
+    "maxReconnectAttempts": 5,
+    "autoSaveAppstate": true
